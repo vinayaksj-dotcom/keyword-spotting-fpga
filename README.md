@@ -5,3 +5,4 @@ Dataset: Google Speech Commands (mini), download from
 http://storage.googleapis.com/download.tensorflow.org/data/mini_speech_commands.zip
 Float32: 84.0% | INT8 (post-training, 100 calibration samples): 76.8%
 INT8 calibration 100 clips → 76.8%, 1280 clips → 67.2% (more calibration data hurt; investigating)
+INT8 (post-training): 100 calibration clips → 76.8%, 320 → 68.4%, 1280 → 67.2%. Cause not yet understood.
